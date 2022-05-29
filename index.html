@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&family=Work+Sans:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<title>Sign Up Newsletter</title>
+</head>
+<body>
+<header>
+<h1>THE CODE REVIEW</h1>
+</header>
+
+<main>
+    <div class="title-header">
+        <h2><strong>Signup for our Newsletter</strong></h2>
+        <p div class="title-header-p">Get the latest on how your code is
+        doing right in your inbox.</p>
+        <hr div class="break1">
+        <hr div class="break2">
+        </div>
+
+     <form div class="container1"action="index.html" method="post">
+     
+    <fieldset>
+     <legend class="item-c">Contact Information</legend>
+        
+    
+     <div class="item item-1">
+     <label for="name">Full Name</label><br>
+        <input type="text" class="top-input" id="name" required="" name="user_name" placeholder="Required"><br>
+        <br>
+        </div>
+
+        <div class="item item-2">
+        <label for="mail">Email Address</label><br>
+        <input type="email" class="top-input" id="mail" required="" name="user_email" placeholder="Required"><br>
+        <br>
+    </div>
+    
+    <div class="item item-3">
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" class="top-input" name="user_phone" placeholder="Optional"><br>
+        <br>
+        </div>
+
+    <div class="item  item-4">
+        <label for="streetaddress">Street Address</label><br>
+        <input type="address" class="top-input" id="streetaddress" name="user_address" placeholder="Optional"><br>
+        <br>
+        </div>
+        
+        <div class="item  item-5">
+        <label class="bel" for="town">City</label><br>
+        <input type="city" class="top-input" id="town" name="user_city" placeholder="Optional"><br>
+        <br>
+        </div>
+
+        <div class="item  item-6">
+        <label for="states">State</label><br>
+        <select id="states" name="user_state"><br>
+        <option value="" disabled selected>Choose State</option>
+        <option value="state_georgia">Georgia</option>
+        <option value="state_florida">Florida</option>
+        </select>
+        <br>
+        </div>
+
+        <div class="item  item-7">
+        <br><label for="codezip">Zip Code</label><br>
+        <input type="zip" id="codezip" name="user_zip" placeholder="Optional"><br>
+        </div>
+
+    </fieldset>
+</div>    
+     <hr div class="break2"> 
+        <fieldset>
+        <legend>Newsletter</legend>
+
+        <label>Select the Newsletters you would like to recieve</label><br>
+        <br><input type="checkbox" id="htmlnews" value="newsletter_htmlnews" name="user_newsletter">
+        <label for="htmlnews">HTML News</label><br>
+
+        <br><input type="checkbox" id="cssnews" value="newsletter_cssnews" name="user_newsletter">
+        <label for="cssnews">CSS News</label><br>
+
+        <br><input type="checkbox" id="javascriptnews" value="newsletter_javascriptnews" name="user_newsletter">
+        <label for="javascriptnews">Javascript News</label><br>
+        
+        <br><br><label>Newsletter format</label><br>
+        <br><input type="radio" id="html" value="html" name="user_newsformat">
+        <label for="html">HTML</label><br>
+    
+        <br><input type="radio" id="plaintext" value="plain_text" name="user_newsformat">
+        <label for="plaintext">Plain text</label><br>
+
+
+    <br><label>Other topics you'd like to hear about</label><br>
+    <textarea id="info" name="user_info" placeholder="Optional"></textarea><br>
+    <button type="submit"> Sign up</button>
+</fieldset>
+</form>
+</main>
+
+<footer>
+<p><em>Copyright The Code Review</em></p>
+</footer>
+</body>
+</html>
