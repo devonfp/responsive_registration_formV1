@@ -51,6 +51,7 @@ legend {
 label {
    color: rgb(108 105 105);
    line-height: 1.5;
+   flex-basis: 25%;
 }
 
 input, textarea, select {
