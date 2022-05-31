@@ -82,7 +82,7 @@ input:focus {
 
 
 
-input[type="zip"]::placeholder {
+input[type="number"]::placeholder {
     font-style: italic;
     padding-left: 40%;
     font-family: 'Merriweather', serif;
@@ -95,7 +95,7 @@ textarea[id="info"]::placeholder {
 }
 
 
-input[type="zip"] {
+input[type="number"] {
     padding-left: 30px;
     padding-top: 15px;
     padding-right: 1px;
@@ -181,11 +181,11 @@ input::placeholder {
 }
 
 
-input[type="zip"]::placeholder {
+input[type="number"]::placeholder {
     padding-left: 40%;
 }
 
-input[type="zip"] {
+input[type="number"] {
     max-width: 25%;
     margin: 10px;
 }
