@@ -80,9 +80,12 @@ input:focus {
     background-color: rgb(210, 219, 219);
   }
 
+  select:focus {
+    background-color: rgb(210, 219, 219);
+  }
 
 
-input[type="number"]::placeholder {
+#codezip::placeholder {
     font-style: italic;
     padding-left: 40%;
     font-family: 'Merriweather', serif;
@@ -95,7 +98,7 @@ textarea[id="info"]::placeholder {
 }
 
 
-input[type="number"] {
+#codezip {
     padding-left: 30px;
     padding-top: 15px;
     padding-right: 1px;
@@ -115,6 +118,7 @@ input[type="number"] {
 
 fieldset {
     border-color: transparent;
+    margin-top: 1rem;
  }
 
 select {
@@ -181,11 +185,11 @@ input::placeholder {
 }
 
 
-input[type="number"]::placeholder {
+#codezip::placeholder {
     padding-left: 40%;
 }
 
-input[type="number"] {
+#codezip {
     max-width: 25%;
     margin: 10px;
 }
